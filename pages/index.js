@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <h1>
-          Paul Le Houillier's Website
+          Paul Le Houillier&aposs Website
         </h1>  
         <Link href="/contact"> 
           <a>contact</a>
