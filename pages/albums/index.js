@@ -18,7 +18,7 @@ export default function Albums({ albumList }) {
             <div>
                 <h1>Albums</h1>
                 <p>
-                    {albumList.map(album => (<p>{album.name}</p>))}
+                    {albumList.map(album => (<p key={album.id}>{album.name}</p>))}
                 </p>
             </div>
       </>
