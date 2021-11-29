@@ -1,15 +1,16 @@
 import Head from 'next/head'
-import {albums} from '../../data/albums'
+import {album_data} from '../../public/images/album_data'
+import Link from "next/link";
 
 export const getStaticProps = async () => {
   return {
     props: {
-      albumList : albums
+      album_list : album_data
     }
   }
 }
 
-export default function Albums({ albumList }) {
+export default function Albums({ album_list }) {
     return (
         <>
             <Head>
@@ -17,9 +18,15 @@ export default function Albums({ albumList }) {
             </Head>
             <div>
                 <h1>Albums</h1>
-                <p>
-                    {albumList.map(album => (<p key={album.id}>{album.name}</p>))}
-                </p>
+                {album_list.map(album => (
+                  <Link href={'/albums/' + album.id}>
+                    <a>
+                      <div key={album.id}>
+                          <h3>{album.name}</h3>
+                      </div>
+                    </a>
+                  </Link>
+                ))}
             </div>
       </>
     );
