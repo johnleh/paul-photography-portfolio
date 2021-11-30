@@ -19,9 +19,9 @@ export default function Albums({ album_list }) {
             <div>
                 <h1>Albums</h1>
                 {album_list.map(album => (
-                  <Link href={'/albums/' + album.id}>
+                  <Link href={'/albums/' + album.id} key={album.id}>
                     <a>
-                      <div key={album.id}>
+                      <div>
                           <h3>{album.name}</h3>
                       </div>
                     </a>
