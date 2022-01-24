@@ -14,6 +14,12 @@ a {
   text-decoration: none;
 }
 
+.nav_button {
+  font-size: large;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -73,10 +79,10 @@ nav .logo {
 
 
 .footer_box a {
-  font-size: large;
-  font-weight: bold;
   color: #FFFFFF;
+  
 }
+
 
 .footer_box table {
   margin: auto;

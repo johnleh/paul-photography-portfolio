@@ -11,20 +11,20 @@ const Footer = () => {
 
                         <div className="contact_smaller_box">
                             <p> <b>Paul Le Houillier </b></p>
-                            <p>Instagram</p>
-                            <p>Facebook</p>
+                            <p><a target="_blank" href="https://instagram.com/paul_le_houillier?utm_medium=copy_link">Instagram</a></p>
+                            <p><a target="_blank" href="https://www.facebook.com/paul.lehouillier">Facebook</a></p>
                         </div>
                     </div>
                 </div>
                 <div className="footer_box">
                     <table>
                         <tr>
-                            <td><Link href="/"><a>Home</a></Link></td>
-                            <td><Link href="/about"><a>About</a></Link></td>
-                            <td><Link href="/contact"><a>Contact</a></Link></td>
+                            <td><Link href="/"><a className="nav_button">Home</a></Link></td>
+                            <td><Link href="/about"><a className="nav_button">About</a></Link></td>
+                            <td><Link href="/contact"><a className="nav_button">Contact</a></Link></td>
                         </tr>
                         <tr>
-                            <td><Link href="/albums"><a>Albums</a></Link></td>
+                            <td><Link href="/albums"><a className="nav_button">Albums</a></Link></td>
                         </tr>
                         </table>
                 </div>
