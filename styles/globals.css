@@ -1,6 +1,11 @@
 @import url('https://fonts.google.com/specimen/Open+Sans#standard-styles');
-
+html {
+  overflow: hidden;
+  height: 100%;
+}
 body {
+  height: 100%;
+  overflow: auto;
   background: #f2f2f2;
   color: #333;
   font-family: 'Open Sans', sans-serif;}
@@ -34,6 +39,8 @@ nav .logo {
 /* ------------------------- FOOTER ------------------------- */
 .footer-container {
   position:absolute;
+  left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;  
 }
@@ -53,11 +60,31 @@ nav .logo {
   display: flex;
   justify-content: right;
   color: #FFFFFF;
-  width: 33vw;
+  width: 34vw;
   height: 304px;
   display: table-cell;
   border-right: solid #CED7E2 1px;  
- 
+  padding-top: 15px;
+}
+
+.footer_box td {
+  padding: 30px;
+}
+
+
+.footer_box a {
+  font-size: large;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.footer_box table {
+  margin: auto;
+  text-align: center;
+}
+
+.footer_box tr {
+  padding-top: 30px;
 }
 
 #footer_contact_box {
@@ -66,10 +93,14 @@ nav .logo {
   margin: 0 auto;
   
 }
-.footer_box:last-child {
-  border: 0px;
+.contact_smaller_box {
+  margin-top: 40%;
 }
 
-.footer_button {
-  color: #FFFFFF;
+.contact_smaller_box p {
+  line-height: 50%;
+}
+
+.footer_box:last-child {
+  border: 0px;
 }

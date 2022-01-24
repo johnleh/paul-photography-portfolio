@@ -7,18 +7,26 @@ const Footer = () => {
                 <div className="footer_box">
                     <div id="footer_contact_box">
                         <h2>Paul Le Houillier's Photography</h2>
-                        <p>Email</p>
+                        
 
-                        <div className="social_icons">
+                        <div className="contact_smaller_box">
+                            <p> <b>Paul Le Houillier </b></p>
                             <p>Instagram</p>
                             <p>Facebook</p>
                         </div>
                     </div>
                 </div>
                 <div className="footer_box">
-                    <Link href="/"><a className="footer_button">Home</a></Link>
-                    <Link href="/about"><a className="footer_button">About</a></Link>
-                    <Link href="/albums"><a className="footer_button">Albums</a></Link>
+                    <table>
+                        <tr>
+                            <td><Link href="/"><a>Home</a></Link></td>
+                            <td><Link href="/about"><a>About</a></Link></td>
+                            <td><Link href="/contact"><a>Contact</a></Link></td>
+                        </tr>
+                        <tr>
+                            <td><Link href="/albums"><a>Albums</a></Link></td>
+                        </tr>
+                        </table>
                 </div>
                 <div className="footer_box">
 
