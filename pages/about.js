@@ -6,7 +6,7 @@ export default function About() {
           <Head>
             <title>PLH | About</title>
           </Head>
-          <div>
+          <div className="page_container">
             <h1>About</h1>
           </div>
         </>

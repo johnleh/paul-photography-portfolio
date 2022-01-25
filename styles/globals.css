@@ -14,10 +14,8 @@ a {
   text-decoration: none;
 }
 
-.nav_button {
-  font-size: large;
-  font-weight: bold;
-  color: #FFFFFF;
+.page_container {
+  padding-top: 70px;
 }
 
 a:hover {
@@ -27,21 +25,41 @@ a:hover {
   max-width: 960px;
   margin: 0 auto;
 }
+
+
+/* TODO: Make css more universal */
+/* ------------------------- Header ------------------------- */
 nav {
-  margin: 10px auto 80px;
-  padding: 10px 0;
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;  
+  padding: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  border-bottom: 1px solid #ddd;
-}
-nav a {
-  margin-left: 12px;
-}
-nav .logo {
-  margin-right: auto;
+  background: #B3BDC9;
+
 }
 
+nav .title {
+  margin-right: auto;
+  margin-left: 20px;
+  color: #FFFFFF;
+}
+nav .nav_buttons {
+  margin-top: auto;
+  margin-right: 40px;
+  margin-bottom: auto;
+}
+
+nav a {
+  margin-left: 40px;
+  font-size: large;
+  font-weight: bold;
+  color: #FFFFFF;
+}
 /* ------------------------- FOOTER ------------------------- */
 .footer-container {
   position:absolute;

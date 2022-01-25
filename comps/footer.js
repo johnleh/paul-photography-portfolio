@@ -3,14 +3,14 @@ import Link from "next/link";
 const Footer = () => {
     return ( 
         <div className="footer-container">
+            {/*TODO: Make Better for mobile phones*/}
             <div className="footer-content">
                 <div className="footer_box">
                     <div id="footer_contact_box">
                         <h2>Paul Le Houillier's Photography</h2>
                         
-
                         <div className="contact_smaller_box">
-                            <p> <b>Paul Le Houillier </b></p>
+                            {/*TODO: Change to Icons*/}
                             <p><a target="_blank" href="https://instagram.com/paul_le_houillier?utm_medium=copy_link">Instagram</a></p>
                             <p><a target="_blank" href="https://www.facebook.com/paul.lehouillier">Facebook</a></p>
                         </div>

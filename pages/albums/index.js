@@ -16,7 +16,7 @@ export default function Albums({ album_list }) {
             <Head>
                 <title>PLH | Albums</title>
             </Head>
-            <div>
+            <div className="page_container">
                 <h1>Albums</h1>
                 {album_list.map(album => (
                   <Link href={'/albums/' + album.id} key={album.id}>

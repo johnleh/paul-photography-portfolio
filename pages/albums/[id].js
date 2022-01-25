@@ -28,7 +28,7 @@ export default function AlbumView({album}) {
           <Head>
             <title>PLH | {album.name}</title>
           </Head>
-          <div>
+          <div className="page_container">
             <h1>{album.name}</h1>
             
           </div>

@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>PLH | Home</title>
       </Head>
-      <div>
+      <div className="page_container">
         <h1>Home</h1>
       </div>
     </>

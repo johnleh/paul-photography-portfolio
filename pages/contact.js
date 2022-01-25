@@ -6,7 +6,7 @@ export default function Contact() {
           <Head>
             <title>PLH | Contact</title>
           </Head>
-          <div>
+          <div className="page_container">
             <h1>Contact</h1>
           </div>
         </>
