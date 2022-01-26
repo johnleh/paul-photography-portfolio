@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return ( 
-        <div className="footer-container">
+        <div>
             {/*TODO: Make Better for mobile phones*/}
             <div className="footer-content">
                 <div className="footer_box">
