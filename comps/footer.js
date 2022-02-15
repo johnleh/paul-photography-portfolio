@@ -21,10 +21,9 @@ const Footer = () => {
                         <tr>
                             <td><Link href="/"><a className="nav_button">Home</a></Link></td>
                             <td><Link href="/about"><a className="nav_button">About</a></Link></td>
-                            <td><Link href="/contact"><a className="nav_button">Contact</a></Link></td>
+                            <td><Link href="/albums"><a className="nav_button">Albums</a></Link></td>
                         </tr>
                         <tr>
-                            <td><Link href="/albums"><a className="nav_button">Albums</a></Link></td>
                         </tr>
                         </table>
                 </div>

@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import {album_data} from '../../public/images/album_data'
-import Image from 'next/image'
+import {album_data} from '../../public/images/album_data.js'
 
 export const getStaticPaths = async () => {
   
@@ -23,6 +22,9 @@ export const getStaticProps = async (context) => {
 }
 
 export default function AlbumView({album}) {
+    console.log(album)
+    console.log("AHHHHH")
+
     return ( 
         <>
           <Head>

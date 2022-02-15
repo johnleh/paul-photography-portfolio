@@ -6,7 +6,7 @@ export const album_data = [
         images : [
             {
                 id : "0",
-                path : "oregon_0",
+                path : "images/travel/oregon_0.jpg",
                 sub_catagory : "Oregon"
             }
         ]
@@ -18,7 +18,7 @@ export const album_data = [
         images : [
             {
                 id : "0",
-                path : "john_0",
+                path : "images/portraits/john_0.jpg",
                 sub_catagory : "John Le Houillier"
             }
         ]
