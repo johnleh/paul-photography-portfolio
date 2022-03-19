@@ -1,5 +1,6 @@
 import Link from "next/link"
 
+//404 error page
 export default function NotFound() {
     return ( 
         <div className="page_container">

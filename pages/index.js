@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import AlbumSnippet from '../comps/album_snippets';
+
+//Homepage
 export default function Home() {
   return (
     <>

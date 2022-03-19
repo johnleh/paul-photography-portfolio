@@ -1,3 +1,5 @@
+//All album data for the site to get picture information
+
 export const album_data = [
     {
         id : "travel",

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+//About/Contact page
 export default function About() {
     return ( 
         <>

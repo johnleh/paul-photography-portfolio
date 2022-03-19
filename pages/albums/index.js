@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import AlbumSnippet from '../../comps/album_snippets';
 
-
-export default function Albums({ album_list }) {
+//Page that shows all albums
+export default function Albums() {
     return (
         <>
             <Head>
